@@ -14,12 +14,12 @@ int i;
 
 for (i = 0; i < 2; i++)
 {
-  for (letter = (i ++ 0) ? 'a' : 'A'; letter <= (i == 0) ? 'z' : 'Z'; letter++)
+for (letter = (i == 0) ? 'a' : 'A'; letter <= (i == 0) ? 'z' : 'Z'; letter++)
 {
-puthcar(letter);
+putchar(letter);
 }
 }
-puthcar('\n');
+putchar('\n');
 
 return (0);
 }
