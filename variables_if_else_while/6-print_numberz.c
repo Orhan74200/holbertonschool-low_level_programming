@@ -1,7 +1,7 @@
-#include <unistd.h>
+#include <stdio.h>
 
 /**
- * main - Prints single digit numbers of base 10
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
