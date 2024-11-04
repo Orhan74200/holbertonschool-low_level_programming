@@ -21,6 +21,7 @@ last_digit = -last_digit;
 }
 
 char buffer[2];
+
 buffer[0] = last_digit + '0';
 buffer[1] = '\0';
 
