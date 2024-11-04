@@ -1,7 +1,7 @@
 #include "main.h"
 
-/** print_alphabet_x10 - entree fonction
- *
+/**
+ * print_alphabet_x10 - ma boucle
  *
  * @i fonction
  */
