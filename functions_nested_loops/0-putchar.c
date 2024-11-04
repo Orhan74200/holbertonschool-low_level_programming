@@ -13,7 +13,7 @@ printf("_");
 printf("p");
 printf("u");
 printf("t");
-prinft("c");
+printf("c");
 printf("h");
 printf("a");
 printf("r");
