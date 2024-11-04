@@ -10,7 +10,6 @@
  *
  * Return: This function does not return a value.
  */
-
 void jack_bauer(void)
 {
 int hour, minute;
