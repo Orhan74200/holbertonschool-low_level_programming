@@ -2,19 +2,19 @@
 
 /**
  * _abs - Calcule la valeur absolue d'un entier
- * @int: L'entier dont on veut la valeur absolue
+ * @n: L'entier dont on veut la valeur absolue
  *
- * Return: La valeur absolue de int
+ * Return: La valeur absolue de n
  */
 
-int _abs(int)
+int _abs(int n)
 {
-if (int < 0)
+if (n < 0)
 {
-return (-int);
+return (-n);
 }
 else
 {
-return (int);
+return (n);
 }
 }
