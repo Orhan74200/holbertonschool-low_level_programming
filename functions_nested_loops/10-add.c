@@ -1,16 +1,14 @@
 #include "main.h"
-#include <stdio.h>
 
-int add(int, int)
-{
-
-int result = add(5, 3);
-printf("5 + 3 = %d\n", result);
-return (0);
-}
+/**
+ * add - Adds two integers
+ * @a: The first integer to be added
+ * @b: The second integer to be added
+ *
+ * Return: The sum of a and b
+ */
 
 int add(int a, int b)
 {
 return (a + b);
-}
 }
