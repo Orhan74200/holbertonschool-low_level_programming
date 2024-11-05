@@ -18,13 +18,18 @@ for (j = 0; j <= 9; j++)
 result = i * j;
 if (j != 0)
 _putchar(' ');
+
 if (result < 10)
 _putchar(' ');
+else
+_putchar((result / 10) + '0');
 
-write("%d", result);
+_putchar((result % 10) + '0');
 
 if (j < 9)
-write(",");
+{
+_putchar(',';
+_putchar(' ');
 }
 _putchar('\n');
 }
