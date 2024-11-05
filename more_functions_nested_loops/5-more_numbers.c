@@ -13,7 +13,7 @@ int count;
 
 for (count = 0; count <= 10; count++)
 {
-for (c = '0'; c <= '14'; c++)
+for (c = 0; c <= 12; c++)
 {
 _putchar(c);
 }
