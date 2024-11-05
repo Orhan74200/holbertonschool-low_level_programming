@@ -11,9 +11,9 @@ void more_numbers(void)
 int c;
 int count;
 
-for (count = 0; count <= 10; count++)
+for (count = 0; count < 10; count++)
 {
-for (c = 0; c <= 12; c++)
+for (c = 0; c <= 14; c++)
 {
 _putchar(c);
 }
