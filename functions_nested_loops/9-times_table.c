@@ -16,6 +16,7 @@ for (i = 0; i <= 9; i++)
 for (j = 0; j <= 9; j++)
 {
 result = i * j;
+
 if (j != 0)
 _putchar(' ');
 
@@ -31,7 +32,7 @@ if (j < 9)
 _putchar(',');
 _putchar(' ');
 }
-_putchar('\n');
 }
+_putchar('\n');
 }
 }
