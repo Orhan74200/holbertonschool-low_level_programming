@@ -4,7 +4,7 @@
  * print_square - Prints a square using the character #
  * @size: The size of the square
  *
- * Description: This function prints a square of given size using '#' characters,
+ * Description: This function prints a square of given size using # characters,
  * followed by a new line. If size is 0 or less, it only prints a newline.
  */
 void print_square(int size)
